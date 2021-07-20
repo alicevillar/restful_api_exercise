@@ -2,6 +2,9 @@
 
 This is an exercise to create a RESTful API using Python Flask. [Source Code](https://codeburst.io/this-is-how-easy-it-is-to-create-a-rest-api-8a25122ab1f3)
  
+
+<h1>Table of Contents</h1>
+ 
 <!-- TOC -->
 - [1. Question 1](#1-question-1)
 - [2. Question 2](#2-question-2)
