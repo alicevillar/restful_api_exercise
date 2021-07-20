@@ -14,17 +14,17 @@ This is an exercise to create a RESTful API using Python Flask. [Source Code](ht
 <!-- TOC -->
 
 
-## Question 1: 
+## Question 1  
 
 Run the API.py code. Take a screenshot of the terminal output. What command did you use to compile and run the code?
 
-## Question 2: 
+## Question 2  
 
 Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Ann
 
 What happens when this command is run, and why?
 
-## Question 3:  
+## Question 3   
 
 Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam
 
