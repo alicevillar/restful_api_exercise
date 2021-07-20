@@ -37,6 +37,10 @@ Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user
 
 What happens when this command is run, and why?
 
+Adam:1 GET http://127.0.0.1:5000/user/Adam 404 (NOT FOUND)
+AAChromeTriggers.js:6 adding on message listener for aa chrome trigger content script
+AAChromeTriggers.js:110 chrome trigger listener added
+
 ## Question 4
 
 What capability is achieved by the flask library?
