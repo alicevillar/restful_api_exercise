@@ -24,6 +24,13 @@ Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user
 
 What happens when this command is run, and why?
 
+GET http://127.0.0.1:5000/user/ 500 (INTERNAL SERVER ERROR)
+AAChromeTriggers.js:6 adding on message listener for aa chrome trigger content script
+AAChromeTriggers.js:110 chrome trigger listener added
+
+api.add_resource(User, "/user/<string: name>")
+
+
 ## Question 3   
 
 Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam
