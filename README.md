@@ -2,6 +2,8 @@
  
 This repository contains an assignement of Module 3 (“Secure Software Development”) Unit 9 ( Developing an API for a Distributed Environment) of my MSc in Computer Science at the University of Essex, UK. This is an exercise to create a RESTful API using Python Flask. Click [here](https://codeburst.io/this-is-how-easy-it-is-to-create-a-rest-api-8a25122ab1f3) to find the Source Code. 
  
+:round_pushpin:The file [main.py](https://github.com/alicevillar/restful_api_exercise/blob/main/main.py) contains the code.  I decided to go further so in the file [api_fetch.js](https://github.com/alicevillar/restful_api_exercise/blob/main/api_fetch.js) I did the HTTP requests for each method (get, post, put and delete) with Javascript.
+  
 
 <h1>Table of Contents</h1>
  
