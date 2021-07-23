@@ -20,9 +20,9 @@ Run the API.py code. Take a screenshot of the terminal output. What command did 
 
 ## Question 2  
 
-Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Ann
+### Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Ann
 
-What happens when this command is run, and why?
+### What happens when this command is run, and why?
 
 GET http://127.0.0.1:5000/user/ 500 (INTERNAL SERVER ERROR)
 AAChromeTriggers.js:6 adding on message listener for aa chrome trigger content script
@@ -33,7 +33,7 @@ api.add_resource(User, "/user/<string: name>")
 
 ## Question 3   
 
-Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam
+### Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam
 
 What happens when this command is run, and why?
 
@@ -43,4 +43,11 @@ AAChromeTriggers.js:110 chrome trigger listener added
 
 ## Question 4
 
-What capability is achieved by the flask library?
+### What capability is achieved by the flask library?
+
+Flask is a widely used micro web framework for creating APIs in Python. Flask's framework is more explicit than Django's framework and is also easier to learn because it has less base code to implement a simple web-Application. Flask comes with all its benefit of the fast template, strong WSGI features, and extensive documentation. It is important to highlight the capabilities of Flask-RESTful and Flask-RestPlus: 
+
+* Flask-RESTful is an extension for Flask that adds support for quickly building REST APIs. It is a lightweight abstraction that works with your existing ORM/libraries. 
+* Flask-RESTPlus is an extension to Flask which improves upon its capabilities. Flask-RestPlus provides syntaxic suger (makes programs easier to read, write, or understand) and automatically generates Swagger documentation on top of Flask-Restful.
+
+
