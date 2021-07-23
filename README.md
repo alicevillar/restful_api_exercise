@@ -47,17 +47,15 @@ Adam does not exist in the list or users, so the command will the result will be
 ```
 // FUNCTION METHOD GET
 //Fetch to GET User Adam. Since Adam does not exist, the expected response is 404
-fetch("http://127.0.0.1:5000/user/Adam").then( //
-async(response) => { //   async does the await
-    const data = await response.json(); //code stops until the response comes
+
+fetch("http://127.0.0.1:5000/user/Adam").then(  
+async(response) => {  
+    const data = await response.json();  
     console.log(data)
 }
 ) 
- 
-===>>> RESPOSE IN THE CONSOLE: 404 (NOT FOUND)
- 
 ```
- 
+ ===>>> RESPOSE IN THE CONSOLE: 404 (NOT FOUND)
  
 ## Question 4
 
