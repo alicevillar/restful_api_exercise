@@ -18,34 +18,32 @@ This is an exercise to create a RESTful API using Python Flask. [Source Code](ht
 
 #### :arrow_forward: Run the API.py code. Take a screenshot of the terminal output. What command did you use to compile and run the code?
 
-Solution: I used Pythin in Pycharm, so I just executed the code and accessed the command line (also known as terminal). What happened was an error message saying: get() missing one positional argument. Click [here](https://github.com/alicevillar/restful_api_exercise/blob/main/type_error.JPG) to see the print screen.  
+Solution: I used Pythin in Pycharm, so I just executed the code and accessed the command line (also known as terminal). What happened was an error message saying: get() missing one positional argument. Click [here](https://github.com/alicevillar/restful_api_exercise/blob/main/type_error.JPG) to see the print screen. To fix this error I only had to insert the missing argument in the function add_resorce, which now looks like this: 
 
+'''
 api.add_resource(User,"/user/<string:name>")
-
+'''
 
 ## Question 2  
 
-### Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Ann
+#### :arrow_forward:  Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Ann What happens when this command is run, and why?
 
-### What happens when this command is run, and why?
-
-GET http://127.0.0.1:5000/user/ 500 (INTERNAL SERVER ERROR)
-AAChromeTriggers.js:6 adding on message listener for aa chrome trigger content script
-AAChromeTriggers.js:110 chrome trigger listener added
-
-api.add_resource(User, "/user/<string: name>")
-
-
+This command has the final positional argument for the get function, so it returns a dictionary with Ann's information:
+'''
+{
+    "name": "Ann",
+    "age": 32,
+    "occupation": "Doctor"
+}
+'''
+ 
 ## Question 3   
 
-### Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam
+### Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam What happens when this command is run, and why?
 
-What happens when this command is run, and why?
+Adam does not exist in the list or users, so the command will the result will be " null" . I will have the following response in the console: 404 (NOT FOUND) 
 
-Adam:1 GET http://127.0.0.1:5000/user/Adam 404 (NOT FOUND)
-AAChromeTriggers.js:6 adding on message listener for aa chrome trigger content script
-AAChromeTriggers.js:110 chrome trigger listener added
-
+ 
 ## Question 4
 
 ### What capability is achieved by the flask library?
