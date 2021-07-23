@@ -39,14 +39,14 @@ This command has the final positional argument for the get function, so it retur
  
 ## Question 3   
 
-### Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam What happens when this command is run, and why?
+#### :arrow_forward: Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam What happens when this command is run, and why?
 
 Adam does not exist in the list or users, so the command will the result will be " null" . I will have the following response in the console: 404 (NOT FOUND) 
 
  
 ## Question 4
 
-### What capability is achieved by the flask library?
+#### :arrow_forward: What capability is achieved by the flask library?
 
 Flask is a widely used micro web framework for creating APIs in Python. Flask's framework is more explicit than Django's framework and is also easier to learn because it has less base code to implement a simple web-Application. Flask comes with all its benefit of the fast template, strong WSGI features, and extensive documentation. It is important to highlight the capabilities of Flask-RESTful and Flask-RestPlus: 
 
