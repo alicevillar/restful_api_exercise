@@ -74,8 +74,8 @@ class User(Resource):
     def delete(self, name):
         global users
         users = [user for user in users if user["name"] != name]
-# Ex.: imagine we have users A,B,C,D,. I want to delete user A. I search for A in the list.
-# The new list will have all the users exepct from user A. Boom! A was deleted :)
+        # Ex.: imagine we have users A,B,C,D,. I want to delete user A. I search for A in the list.
+        # The new list will have all the users exepct from user A. Boom! A was deleted :)
 
         return "{} is deleted.".format(name), 200
         #another way to do this: return f"{name} is deleted", 200
