@@ -1,6 +1,6 @@
  <h1>RESTful API - Exercises</h1>
-
-This is an exercise to create a RESTful API using Python Flask. [Source Code](https://codeburst.io/this-is-how-easy-it-is-to-create-a-rest-api-8a25122ab1f3)
+ 
+This repository contains an assignement of Module 3 (“Secure Software Development”) Unit 9 ( Developing an API for a Distributed Environment) of my MSc in Computer Science at the University of Essex, UK. This is an exercise to create a RESTful API using Python Flask. Click [here](https://codeburst.io/this-is-how-easy-it-is-to-create-a-rest-api-8a25122ab1f3) to find the Source Code. 
  
 
 <h1>Table of Contents</h1>
