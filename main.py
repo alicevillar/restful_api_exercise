@@ -42,7 +42,7 @@ class User(Resource):
                 return "User with name {} already exists".format(name), 400
 
         # here is the ELSE. Thus, if user does not exist, he or she must be created
-         user = {
+        user = {
             "name": name,
             "age": args["age"],
             "occupation": args["occupation"]

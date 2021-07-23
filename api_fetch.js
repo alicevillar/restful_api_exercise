@@ -6,9 +6,9 @@
 
 //Fetch to GET User Adam. Since Adam does not exist, the expected response is 404
 
-fetch("http://127.0.0.1:5000/user/Adam").then( // then diz: quando a promessa for encaminhada vai fazer a funcao do then
-async(response) => { // funcao async é a função que faz o await 
-    const data = await response.json(); //o cod vai travar aqui até o response vir
+fetch("http://127.0.0.1:5000/user/Adam").then( //
+async(response) => { //   async does the await
+    const data = await response.json(); //code stops until the response comes
     console.log(data)
 }
 ) 
@@ -18,7 +18,7 @@ RESPOSE IN THE CONSOLE:
 404 (NOT FOUND)
 
 */
- 
+
 
 //Fetch to GET User Ann. Since Ann does exist, the expected response is a dictionary with Ann's information 
 fetch("http://127.0.0.1:5000/user/Ann").then(
@@ -29,8 +29,8 @@ async(response) => {
 ) 
 
 /*
-  response --> 
-  
+  response -->
+
   {
     "name": "Ann",
     "age": 32,
@@ -60,7 +60,6 @@ fetch("http://127.0.0.1:5000/user/Matheus",{
 RESPOSE =>> {name: "Matheus", age: "90", occupation: "retired"}
 */
 
- 
 
  // FUNCTION METHOD POST: creates a user if it does not exist it returns: "User with name {} already exists"
 
