@@ -16,7 +16,12 @@ This is an exercise to create a RESTful API using Python Flask. [Source Code](ht
 
 ## Question 1  
 
-Run the API.py code. Take a screenshot of the terminal output. What command did you use to compile and run the code?
+#### :arrow_forward: Run the API.py code. Take a screenshot of the terminal output. What command did you use to compile and run the code?
+
+Solution: I used Pythin in Pycharm, so I just executed the code and accessed the command line (also known as terminal). What happened was an error message saying: get() missing one positional argument. Click [here](https://github.com/alicevillar/restful_api_exercise/blob/main/type_error.JPG) to see the print screen.  
+
+api.add_resource(User,"/user/<string:name>")
+
 
 ## Question 2  
 
