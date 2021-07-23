@@ -41,10 +41,9 @@ This command has the final positional argument for the get function, so it retur
 
 #### :arrow_forward: Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam What happens when this command is run, and why?
 
-Adam does not exist in the list or users, so the command will the result will be " null" . I will have the following response in the console: 404 (NOT FOUND). I also did the request in Javascrip:
+Adam does not exist in the list or users, so the command will the result will be " null" . I will have the following response in the console: 404 (NOT FOUND). I also did the request in Javascript:
 
-![print](adam.JPG)
-
+![print](adam.JPG) 
  
 ## Question 4
 
